@@ -24,6 +24,7 @@ Project: Payment Application
 Project Instructions
 
 Application Flowchart
+![Application Flowchart](https://user-images.githubusercontent.com/113884712/207703446-3cb0aa7f-9564-4256-96db-dae814a90474.jpg)
 
 
  
