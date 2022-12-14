@@ -10,8 +10,10 @@ There are different types of transactions you can make, SALE, REFUND, Pre-Author
 •	REFUND: this means that you will return something and wants your money back to your bank account.
 •	Pre-Authorization: means holding an amount of money from your account, e.g Hotel reservation.
 •	VOID: this means canceling the transaction, e.g if the seller entered the wrong amount.
+
 You are required to implement the SALE transaction only by simulating the card, terminal(ATM), and the server.
 Project Requirements
+
 1.	Development environment preparation
 2.	Implement the card module
 3.	Implement the terminal module
@@ -24,6 +26,7 @@ Project: Payment Application
 Project Instructions
 
 Application Flowchart
+
 ![Application Flowchart](https://user-images.githubusercontent.com/113884712/207703446-3cb0aa7f-9564-4256-96db-dae814a90474.jpg)
 
 
@@ -35,11 +38,13 @@ Development environment preparation
 2.	Create .c and .h file for each module 
 3.	Add header file guard 
 4.	Create the main.c file 
+
 Implement the card module
 1.	Fill in card.h file with functions' prototypes and typedefs 
 2.	Implement getCardHolderName function 
 3.	Implement getCardExpiryDate function 
 4.	Implement getCardPAN function 
+
 Implement the terminal module
 1.	Fill in terminal.h file with functions' prototypes and typedefs 
 2.	Implement getTransactionDate function 
@@ -47,6 +52,7 @@ Implement the terminal module
 4.	Implement gatTransactionAmount function 
 5.	Implement isBelowMaxAmount function 
 6.	Implement setMaxAmount function
+
 Implement the server module
 1.	Fill in server.h file with functions' prototypes and typedefs 
 2.	Implement server-side accounts' database 
@@ -55,9 +61,11 @@ Implement the server module
 5.	Implement isValidAccount function 
 6.	Implement isAmountAvailable function 
 7.	Implement saveTransaction function 
+
 Implement the application
 1.	Fill in application.h file with functions' prototypes 
 2.	Implement appStart function
+
 Testing the application
 1.	Transaction approved user story 
 2.	Exceed the maximum amount user story 
